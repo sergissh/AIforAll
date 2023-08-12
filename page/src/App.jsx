@@ -13,8 +13,6 @@ function App() {
   return (
       <>
         <Header/>
-        <Recomendations/>
-        <Footer/>
         <Routes>
           <Route path='/' element={<MainHome/>}></Route>
           <Route path='/tutorials' element={<Tutorials/>}></Route>
@@ -22,6 +20,7 @@ function App() {
           <Route path='/projects' element={<Projects/>}></Route>
           <Route path='/about' element={<About/>}></Route>
         </Routes>
+        <Footer/>
       </>
   )
 }
